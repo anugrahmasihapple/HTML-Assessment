@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  display: flex;
+  gap: 10%;
+  font-size: 20px;
+  font-weight: 100;
+  color: gray;
+  font-family: ui-sans-serif;
+  margin-left: 120px;
+}
+
+.tag {
+  position: relative;
+  top: 100px;
+  left: 106px;
+}
+
+h1#pro {
+  color: gray;
+  font-family: ui-sans-serif;
+  font-weight: 100;
+  position: relative;
+  bottom: 20px;
+}
+
+h1#nu {
+  font-weight: bolder;
+  font-size: 34px;
+}
+
+.firstsec {
+  position: relative;
+  top: 199px;
+  text-align: center;
+  display: flex;
+  gap: 3%;
+  left: 107px;
+}
+
+img.sec1 {
+  width: 15%;
+}
+
+.sec2 {
+  position: relative;
+  top: 286px;
+  text-align: center;
+  display: flex;
+  gap: 3%;
+  left: 107px;
+}
+
+.build1 {
+  position: relative;
+  top: 400px;
+  left: 173px;
+}
+
+.build2 {
+  position: relative;
+  top: 214px;
+  left: 530px;
+}
+
+.build3 {
+  position: relative;
+  top: 130px;
+  left: 209px;
+}
+
+.pa {
+  position: relative;
+  left: 980px;
+  color: black;
+  font-family: sans-serif;
+  font-weight: 100;
+  bottom: 180px;
+}
+
+button.btn {
+  width: 190px;
+  position: relative;
+  top: 30px;
+  height: 62px;
+  background-color: whitesmoke;
+  border: none;
+}
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  right: 156px;
+  width: 110%;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+h1#num {
+  font-size: 200px;
+  color: lightgray;
+  position: relative;
+  right: 108px;
+  top: 200px;
+}
+
+section.form {
+  position: relative;
+  top: 130px;
+  left: 121px;
+}
+
+h1#conn {
+  font-size: 50px;
+  font-weight: 800;
+  color: darkgray;
+  position: relative;
+  bottom: 18px;
+}
+
+input#col1 {
+  width: 20%;
+  height: 30px;
+  background-color: lightgray;
+  border: none;
+  position: relative;
+  left: 195px;
+}
+
+input#col2 {
+  width: 20%;
+  height: 30px;
+  background-color: lightgray;
+  border: none;
+  position: relative;
+  left: 127px;
+}
+
+input#col3 {
+  width: 20%;
+  height: 30px;
+  background-color: lightgray;
+  border: none;
+  position: relative;
+  left: 198px;
+}
+
+input#col4 {
+  width: 20%;
+  height: 30px;
+  background-color: lightgray;
+  border: none;
+  position: relative;
+  left: 53px;
+}
+
+textarea#col5 {
+  width: 320px;
+  height: 130px;
+  background-color: lightgray;
+  border: none;
+  position: relative;
+  left: 166px;
+  top: 70px;
+}
+
+label#lab {
+  color: gray;
+  font-family: sans-serif;
+}
+
+button.btn2 {
+  position: relative;
+  top: 120px;
+  width: 124px;
+  height: 40px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 2px;
+  left: 240px;
+}
+
+/********************************************
+***************Footer
+**********************************************/
+
+footer {
+          display: flex;
+          align-items: center;
+          background-color: #000;
+          padding: 2rem 2rem;
+          color: #fff;
+          justify-content: space-between;
+          position: relative;
+          top: 340px;
+}
+
+footer .information {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+footer .information a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer .contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+footer .locate {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+footer .socials {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+footer .socials .logos {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+@media only screen and (max-width: 950px) {
+  footer {
+    flex-direction: column;
+    align-items: start;
+    gap: 2rem;
+  }
+}
